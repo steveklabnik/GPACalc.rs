@@ -7,29 +7,29 @@ fn main() {
     let mut i = 1f32;
     let mut accum = 0f32;
     let mut reader = stdin.lock();
-    let (A, B, C, D, F) = (4f32, 3f32, 2f32, 1f32, 0f32);
+    let (a, b, c, d, f) = (4f32, 3f32, 2f32, 1f32, 0f32);
     for line in reader.lines() {
         let srt = line.unwrap();
         match srt.as_slice().trim() {
             "A" => {
                 accum += A;
-                println!("Class: {}, GPA Points= {}" , i , A)
+                println!("Class: {}, GPA Points= {}" , i , a)
             }
             "B" => {
                 accum += B;
-                println!("Class: {}, GPA Points= {}" , i , B)
+                println!("Class: {}, GPA Points= {}" , i , b)
             }
             "C" => {
                 accum += C;
-                println!("Class: {}, GPA Points= {}" , i , C)
+                println!("Class: {}, GPA Points= {}" , i , c)
             }
             "D" => {
                 accum += D;
-                println!("Class: {}, GPA Points= {}" , i , D)
+                println!("Class: {}, GPA Points= {}" , i , d)
             }
             "F" => {
                 accum += F;
-                println!("Class: {}, GPA Points= {}" , i , F)
+                println!("Class: {}, GPA Points= {}" , i , f)
             }
             "done" => {
                 i += -1.00;
