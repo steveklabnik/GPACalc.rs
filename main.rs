@@ -2,7 +2,7 @@ use std::io;
 
 fn main() {
 	println!("*******/// GPA Calculator \\\\\\*******");
-	println!("Developed by Karim Ellaisy, Written in Rust\n\n *Note: this is based on Wyomissing's computing system(Simple GPA)\n\n");
+	println!("Developed by Apophis, Written in Rust\n\n *Note: this is based on Wyomissing's computing system(Simple GPA)\n\n");
 	println!("Instructions: Type the uppercase letter grade then press enter\n enter `done` to calculate GPA")
 	let mut stdin = io::stdin();
 	let mut i = 1f32;
